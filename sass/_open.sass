@@ -1,0 +1,167 @@
+.open
+    padding-top: 80px
+    padding-bottom: 89px
+    &__title
+        margin-bottom: 54px
+    &__steps
+        margin: 0 auto
+        max-width: 560px
+        margin-bottom: 62px
+        &_line
+            margin-bottom: 8px
+            position: relative
+        &_newLines
+            display: flex
+            div
+                background: #F4F4F4
+                border-radius: 20px
+                height: 8px
+                width: 140px
+        &__wrapper
+            position: relative
+            display: flex
+            justify-content: space-between
+            align-items: center
+            div
+                font-style: normal
+                font-weight: normal
+                font-size: 12px
+                line-height: 18px
+                text-align: center
+                color: #808185
+        &_circles
+
+            display: flex
+            justify-content: space-between
+            position: absolute
+            width: 100%
+            div
+                cursor: pointer
+                background: #A2A4A6
+                width: 8px
+                height: 8px
+                border-radius: 100%
+    &__wrapper
+        position: relative
+        margin-right: -99px
+    &__slider
+        width: 100%
+        margin: 0 auto
+        position: absolute
+        opacity: 0
+        top: 0
+        //left: 53px
+        //margin-right: -53px
+        //left: 15%;
+        visibility: hidden
+        display: flex
+        justify-content: center
+        transition: 0.5s all
+        .btn
+            height: 25px
+        &_title
+            font-style: normal
+            font-weight: bold
+            font-size: 16px
+            line-height: 24px
+            color: #2B2D33
+            margin-bottom: 32px
+        &_descr
+            margin-bottom: 40px
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 24px
+            color: #2B2D33
+        &_text
+            //width: 420px
+            //margin-left: 33px
+            width: 357px;
+            margin-left: 94px;
+        &_img
+            position: relative
+        &_device
+            position: relative
+            max-width: 250px
+            z-index: 2
+        &_animation
+            transform: translateY(0px)
+            opacity: 0
+            max-width: 250px
+            position: absolute
+            left: 0
+            top: 0
+            z-index: 1
+            transition: 0.5s all
+        &_extra
+            font-style: normal
+            font-weight: normal
+            font-size: 13px
+            line-height: 18px
+            color: #A2A4A6
+            margin-top: 28px
+        &_link
+            text-decoration: none
+            font-size: 16px
+            line-height: 24px
+            color: #0093FF
+    .last
+        img
+            //max-width: 214px
+            max-height: 400px
+            //margin-left: 50px
+        .open__slider_descr
+            margin-bottom: 24px
+        .open__slider_link
+            text-decoration: none
+            cursor: pointer
+            margin-bottom: 24px
+            display: block
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            color: #0093FF
+            transition: 0.3s all
+            &:hover
+                text-decoration: underline
+                color: #00AAFF
+    .prelast
+        img
+            //margin-left: 116px
+            //max-width: 100%
+            max-height: 400px
+    .circle_active
+        background: #2B2D33
+    .text_active
+        color: #2B2D33
+    .step_active
+        background: #FEE600
+    .block_active
+        transform: translateX(0)
+        position: static
+        opacity: 1
+        visibility: inherit
+    &__buttons
+        position: absolute
+        &_right
+            cursor: pointer
+            right: 10%
+            top: 44%
+            z-index: 3000
+        &_left
+            cursor: pointer
+            top: 44%
+            left: 8%
+            z-index: 3000
+    .grey_right
+        display: none
+    .yellow_left
+        display: none
+    .animation_active
+        opacity: 1
+    .scroll
+        transform: translateY(-263px)
+    .scroll6
+        transform: translateY(-88px)
+
+        
